@@ -1,10 +1,12 @@
 import React from 'react'
-import ReservationForm from './pages/reservations'
+import SignupForm from './pages/signup'
+import Login from './pages/login'
 
 const App = () => {
   return (
     <>
-    <ReservationForm/>
+    <SignupForm />
+    <Login />
     </>    
 
     )
